@@ -1,5 +1,7 @@
 set nocompatible
 set number
+set showcmd             "show command in bottom bar
+set cursorline          "highlight current line"
 
 "active la coloration de la syntaxe
 syntax on
@@ -31,3 +33,7 @@ inoremap [ []<left>
 
 "montre les espaces apres du texte (ignore les lignes vides)
 let c_space_errors = 1
+
+"utilise le colorscheme molokai
+colorscheme molokai
+let g:molokai_original = 1
