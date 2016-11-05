@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/nfs/2015/a/ademenet/Github/myvimrc'
+let g:netrw_dirhist_2='/nfs/2015/a/ademenet/Github/lem_in'
+let g:netrw_dirhist_3='/nfs/2015/a/ademenet/Github/lem_in/src'
+let g:netrw_dirhist_4='/nfs/2015/a/ademenet/Github/lem_in'
+let g:netrw_dirhist_5='/nfs/2015/a/ademenet/Github/lem_in/src'
+let g:netrw_dirhist_6='/nfs/2015/a/ademenet/Github/lem-in_test'
+let g:netrw_dirhist_7='/nfs/2015/a/ademenet/Github'
+let g:netrw_dirhist_8='/nfs/2015/a/ademenet/Github/lem-in_test'
+let g:netrw_dirhist_9='/nfs/2015/a/ademenet/corewar/champions'

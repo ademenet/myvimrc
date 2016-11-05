@@ -12,10 +12,10 @@ set omnifunc=syntaxcomplete#Complete
 set mouse=a
 
 "active une ligne sous la ligne active
-set cursorline
+"set cursorline
 
 "colore plutot qu'un cursorline
-highlight Cursorline cterm=bold guibg=Grey40
+"highlight Cursorline cterm=bold guibg=Grey40
 
 "encode en utf-8
 set encoding=utf-8
@@ -39,13 +39,16 @@ let c_space_errors = 1
 "let g:molokai_original = 1
 
 "theme solarized dark
-"syntax enable
-"set background=dark
-"colorscheme solarized
+syntax enable
+let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
 
 "pour activer l'affichage des caracteres invisibles faire backslash + l
 nmap <leader>l :set list!<CR>
 set listchars=tab:▸\ ,eol:¬
 
 "pour pathogen (gestionnaire de plugins)
-"execute pathogen#infect()
+execute pathogen#infect()
+filetype plugin indent on
+
