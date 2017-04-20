@@ -1,11 +1,18 @@
 # myvimrc
 
-## How to enjoy my comfiguration?
+Updated version: April 2017
 
-### Installed plugins
+## How to
 
-- Pathogen: plugins manager,
-- Solarized: theme - in dark,
+Install [Vundle]()
+
+```bash
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+My theme: Solarized: theme - in dark,
+
+
 - (Tagbar)[http://majutsushi.github.io/tagbar/]: a usefull C++ structure browsing
 - (ALE)[https://github.com/w0rp/ale]: asynchronous lint engine
 - (ctrlp-vim)[http://ctrlpvim.github.io/ctrlp.vim/]

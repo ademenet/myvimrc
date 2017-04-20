@@ -1,3 +1,9 @@
+""""""""""""""""""""""""""""
+" 
+""""""""""""""""""""""""""""
+
+
+
 set nocompatible
 set number
 set showcmd             "show command in bottom bar
@@ -48,7 +54,5 @@ colorscheme solarized
 nmap <leader>l :set list!<CR>
 set listchars=tab:▸\ ,eol:¬
 
-"pour pathogen (gestionnaire de plugins)
-execute pathogen#infect()
-filetype plugin indent on
-
+"pour NERDTREE faire ctrl-n pour afficher
+map <C-n> :NERDTreeToggle<CR>
