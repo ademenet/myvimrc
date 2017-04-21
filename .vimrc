@@ -1,13 +1,50 @@
 """"""""""""""""""""""""""""
-" 
+" My vim config in french
 """"""""""""""""""""""""""""
 
+""" Vundle configuration
 
+filetype off		" requis
+set nocompatible	" requis
 
-set nocompatible
+" le path de Vundle a inclure au runtime
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Vundle installe Vundle, requis
+Plugin 'VundleVim/Vundle.vim'
+
+" Plug ins utiles
+Plugin 'scrooloose/nerdtree'
+Plugin 'wesQ3/vim-windowswap'
+Plugin 'SirVer/ultisnips'
+Plugin 'junegunn/fzf.vim'
+Plugin 'junegunn/fzf'
+Plugin 'godlygeek/tabular'
+Plugin 'benmills/vimux'
+Plugin 'gilsondev/searchtasks.vim'
+
+" Pour le code
+Plugin 'Townk/vim-autoclose'
+Plugin 'tobyS/vmustache'
+Plugin 'vim-syntastic/syntastic'
+
+" Pour les themes
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'ryanoasis/vim-devicons'
+
+" Fixe le probleme de backspace OSX
+set backspace=indent,eol,start
+
+call vundle#end()			" requis
+filetype plugin indent on	" requis
+
+""" fin Vundle configuration
+
 set number
-set showcmd             "show command in bottom bar
-set cursorline          "highlight current line"
+set showcmd             " show command in bottom bar
+set cursorline          " highlight current line"
 
 "active la coloration de la syntaxe
 syntax on
@@ -33,9 +70,9 @@ set ts=4
 set t_Co=256
 
 "ferme la parenthese et les guillemets et les crochets
-inoremap ( ()<left>
-inoremap " ""<left>
-inoremap [ []<left>
+"inoremap ( ()<left>
+"inoremap " ""<left>
+"inoremap [ []<left>
 
 "montre les espaces apres du texte (ignore les lignes vides)
 let c_space_errors = 1
@@ -43,6 +80,8 @@ let c_space_errors = 1
 "utilise le colorscheme molokai
 "colorscheme molokai
 "let g:molokai_original = 1
+
+""" Colorscheme
 
 "theme solarized dark
 syntax enable
@@ -56,3 +95,7 @@ set listchars=tab:▸\ ,eol:¬
 
 "pour NERDTREE faire ctrl-n pour afficher
 map <C-n> :NERDTreeToggle<CR>
+
+" pour search task
+let g:searchtasks_list=["TODO", "FIXME", "BUG"]
+
