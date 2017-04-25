@@ -1,6 +1,6 @@
 # This script install everything from scratch
-echo "Installing Oh-my-zsh"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# echo "Installing Oh-my-zsh"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 echo "Installing .vimrc"
 curl https://raw.githubusercontent.com/moannuo/myvimrc/master/.vimrc > ~/.vimrc
