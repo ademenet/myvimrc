@@ -18,7 +18,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'wesQ3/vim-windowswap'
 Plugin 'SirVer/ultisnips'
-Plugin 'junegunn/fzf.vim'
+"Plugin 'junegunn/fzf.vim'
 Plugin 'junegunn/fzf'
 Plugin 'godlygeek/tabular'
 Plugin 'benmills/vimux'
@@ -28,6 +28,9 @@ Plugin 'gilsondev/searchtasks.vim'
 Plugin 'Townk/vim-autoclose'
 Plugin 'tobyS/vmustache'
 Plugin 'vim-syntastic/syntastic'
+
+" Pour tmux
+Plugin 'christoomey/vim-tmux-navigator'
 
 " Pour les themes
 Plugin 'vim-airline/vim-airline'
