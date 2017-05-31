@@ -102,3 +102,7 @@ map <C-n> :NERDTreeToggle<CR>
 
 " pour search task
 let g:searchtasks_list=["TODO", "FIXME", "BUG"]
+
+" Copy to clipboard in Visual mode using ''
+vmap '' :w !pbcopy<CR><CR>
+
